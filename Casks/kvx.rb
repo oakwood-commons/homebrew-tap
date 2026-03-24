@@ -14,22 +14,22 @@ cask "kvx" do
   on_macos do
     on_intel do
       url "https://github.com/oakwood-commons/kvx/releases/download/v#{version}/kvx_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "d0fd0d5f0c407bc2d367e3dd0935dd2724ea692848a9632f828bf78245d7c8a1"
+      sha256 "abf2a4651329f75b1e2e5a448a8b36cf9dfb093728b8e562c7b565be75b17fad"
     end
     on_arm do
       url "https://github.com/oakwood-commons/kvx/releases/download/v#{version}/kvx_#{version}_Darwin_arm64.tar.gz"
-      sha256 "ebce776a696a4968de87588947ed5e253ba1ec6986f7f5af43224aab4b7d58ca"
+      sha256 "a4c26e4670857da186f3c1cde6e4b35d8085136e85f08afeb44f154aafde9384"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/oakwood-commons/kvx/releases/download/v#{version}/kvx_#{version}_Linux_x86_64.tar.gz"
-      sha256 "18b4ebf8e861b34a3dbd51846e5c0cb31a7651c1a3761b3114152f9593f20576"
+      sha256 "aafdea4562da452561f59e7d039a8b7aab505957c1f4e2d2ea2cec90dec0344d"
     end
     on_arm do
       url "https://github.com/oakwood-commons/kvx/releases/download/v#{version}/kvx_#{version}_Linux_arm64.tar.gz"
-      sha256 "12e8c70ef4f3d709139c1111f23d32055763a107bd2e1ea42a04a49a4328640e"
+      sha256 "8a32bbe2e4780199c27a2a974bad7ce61347cdaadd27cd004e1debdb88d8d293"
     end
   end
 
