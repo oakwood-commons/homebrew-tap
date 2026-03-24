@@ -3,7 +3,7 @@ cask "kvx" do
   name "kvx"
   desc "Terminal-based UI for exploring structured data interactively"
   homepage "https://github.com/oakwood-commons/kvx"
-  version "0.7.2"
+  version "0.7.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "kvx" do
   on_macos do
     on_intel do
       url "https://github.com/oakwood-commons/kvx/releases/download/v#{version}/kvx_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "abf2a4651329f75b1e2e5a448a8b36cf9dfb093728b8e562c7b565be75b17fad"
+      sha256 "e63219c5105a81750923ff49b0878c4eaabe24bfbe2688b9272c495ba385a4ec"
     end
     on_arm do
       url "https://github.com/oakwood-commons/kvx/releases/download/v#{version}/kvx_#{version}_Darwin_arm64.tar.gz"
-      sha256 "a4c26e4670857da186f3c1cde6e4b35d8085136e85f08afeb44f154aafde9384"
+      sha256 "e46f0b5386938e380281b408d578001082fcaee747cbd35ea710b36f03d6e1e5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/oakwood-commons/kvx/releases/download/v#{version}/kvx_#{version}_Linux_x86_64.tar.gz"
-      sha256 "aafdea4562da452561f59e7d039a8b7aab505957c1f4e2d2ea2cec90dec0344d"
+      sha256 "a9dce29c97fde2251a742c5118bdf4fbd87d7949f2ab89aa0932404672d86ccd"
     end
     on_arm do
       url "https://github.com/oakwood-commons/kvx/releases/download/v#{version}/kvx_#{version}_Linux_arm64.tar.gz"
-      sha256 "8a32bbe2e4780199c27a2a974bad7ce61347cdaadd27cd004e1debdb88d8d293"
+      sha256 "b1a562104a4010233d2d008bc23003127b2bb8f6de534d85866e74bc01afad3b"
     end
   end
 
