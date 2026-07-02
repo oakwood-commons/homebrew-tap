@@ -3,7 +3,7 @@ cask "scafctl" do
   name "scafctl"
   desc "A configuration discovery and scaffolding tool using CEL for dynamic evaluation"
   homepage "https://github.com/oakwood-commons/scafctl"
-  version "0.29.0"
+  version "0.30.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "scafctl" do
   on_macos do
     on_intel do
       url "https://github.com/oakwood-commons/scafctl/releases/download/v#{version}/scafctl_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "e727d00d61904b257f94ee4723d7b8303ff225e6b06f551fab73d8fba6ac764d"
+      sha256 "acd2f36acb9f5fc05e16e8820ab5d5898cac1cddd6be6c1a2e1ee652ac68be84"
     end
     on_arm do
       url "https://github.com/oakwood-commons/scafctl/releases/download/v#{version}/scafctl_#{version}_Darwin_arm64.tar.gz"
-      sha256 "7cd5f7e94a0853822a591f762cdd265cda96859b8d780df3096a9fd44ac8625b"
+      sha256 "90e1875f484ab26a83984a74957b360ef35f8057d33bba34a15b3aa040bf4d7f"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/oakwood-commons/scafctl/releases/download/v#{version}/scafctl_#{version}_Linux_x86_64.tar.gz"
-      sha256 "7fe2b32fce33da2e1f06be5a906da9255c55073e6cec23ab5351b38b6d6c75be"
+      sha256 "9379d76ce90cbdd97216d2ef456b93d60f956919019c7b4baf85195b0cf29533"
     end
     on_arm do
       url "https://github.com/oakwood-commons/scafctl/releases/download/v#{version}/scafctl_#{version}_Linux_arm64.tar.gz"
-      sha256 "0a9054449b480fabe1c2039057c815a4669ea72e94307d107583a615e7dc2c20"
+      sha256 "7d09a33d3c5c3747d5579113caff1ab68b51fa6323bcca82d26b4dc586bb5573"
     end
   end
 
